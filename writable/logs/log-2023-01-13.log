@@ -1,0 +1,302 @@
+CRITICAL - 2023-01-13 07:40:45 --> Cannot redeclare App\Controllers\Home::bankList()
+in APPPATH\Controllers\Home.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-13 07:41:35 --> Cannot redeclare App\Controllers\Home::bankList()
+in APPPATH\Controllers\Home.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-13 07:41:47 --> Cannot redeclare App\Controllers\Home::bankList()
+in APPPATH\Controllers\Home.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-13 07:41:49 --> Cannot redeclare App\Controllers\Home::bankList()
+in APPPATH\Controllers\Home.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-13 07:41:50 --> Cannot redeclare App\Controllers\Home::bankList()
+in APPPATH\Controllers\Home.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-13 07:42:43 --> Cannot redeclare App\Controllers\Home::bankList()
+in APPPATH\Controllers\Home.php on line 55.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-13 13:14:00 --> Undefined variable $userid
+in APPPATH\Controllers\User.php on line 118.
+ 1 APPPATH\Controllers\User.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userid', 'APPPATH\\Controllers\\User.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->insertBank()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 08:07:35 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 APPPATH\Models\BankModel.php(35): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\Home.php(60): App\Models\BankModel->get_single_data('2')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->editBank('2')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 08:08:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 APPPATH\Models\BankModel.php(35): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\Home.php(60): App\Models\BankModel->get_single_data('2')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->editBank('2')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 08:09:07 --> Undefined variable $id
+in APPPATH\Models\BankModel.php on line 35.
+ 1 APPPATH\Models\BankModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\BankModel.php', 35)
+ 2 APPPATH\Controllers\Home.php(60): App\Models\BankModel->get_single_data('2')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->editBank('2')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 08:10:35 --> Undefined array key "id"
+in APPPATH\Views\editBank.php on line 21.
+ 1 APPPATH\Views\editBank.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\editBank.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\editBank.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('editBank', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('editBank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->editBank('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 08:12:40 --> Undefined array key "acc_holdr_name"
+in APPPATH\Views\editBank.php on line 23.
+ 1 APPPATH\Views\editBank.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "acc_holdr_name"', 'APPPATH\\Views\\editBank.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\editBank.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('editBank', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('editBank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->editBank('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 14:32:28 --> Undefined variable $aboutModel
+in APPPATH\Controllers\User.php on line 168.
+ 1 APPPATH\Controllers\User.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aboutModel', 'APPPATH\\Controllers\\User.php', 168)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updateBank()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 14:39:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 APPPATH\Models\BankModel.php(42): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\User.php(168): App\Models\BankModel->update_data(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updateBank()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 15:00:55 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 APPPATH\Models\BankModel.php(42): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\User.php(168): App\Models\BankModel->update_data(null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updateBank()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 09:56:14 --> Undefined variable $bankdtl
+in APPPATH\Views\index.php on line 112.
+ 1 APPPATH\Views\index.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bankdtl', 'APPPATH\\Views\\index.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 09:57:09 --> Undefined variable $bankdtl
+in APPPATH\Views\index.php on line 112.
+ 1 APPPATH\Views\index.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bankdtl', 'APPPATH\\Views\\index.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 09:58:30 --> Undefined variable $bankdtl
+in APPPATH\Views\index.php on line 112.
+ 1 APPPATH\Views\index.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bankdtl', 'APPPATH\\Views\\index.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 11:24:25 --> syntax error, unexpected identifier "on"
+in APPPATH\Controllers\Home.php on line 77.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 12:11:43 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\User.php on line 185.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 12:11:50 --> Undefined variable $bankdtl
+in APPPATH\Views\bankList.php on line 31.
+ 1 APPPATH\Views\bankList.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bankdtl', 'APPPATH\\Views\\bankList.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bankList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('bankList', [], true)
+ 5 APPPATH\Controllers\User.php(188): view('bankList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updateBank()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 12:12:11 --> Undefined variable $bankdtl
+in APPPATH\Views\bankList.php on line 31.
+ 1 APPPATH\Views\bankList.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bankdtl', 'APPPATH\\Views\\bankList.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bankList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('bankList', [], true)
+ 5 APPPATH\Controllers\User.php(188): view('bankList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updateBank()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 12:12:42 --> Undefined variable $bankdtl
+in APPPATH\Views\bankList.php on line 31.
+ 1 APPPATH\Views\bankList.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bankdtl', 'APPPATH\\Views\\bankList.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bankList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('bankList', [], true)
+ 5 APPPATH\Controllers\User.php(188): view('bankList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updateBank()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 12:13:12 --> Undefined variable $bank
+in APPPATH\Views\editBank.php on line 21.
+ 1 APPPATH\Views\editBank.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bank', 'APPPATH\\Views\\editBank.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\editBank.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('editBank', [], true)
+ 5 APPPATH\Controllers\User.php(188): view('editBank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updateBank()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 12:13:52 --> Undefined variable $bankdtl
+in APPPATH\Views\bankList.php on line 31.
+ 1 APPPATH\Views\bankList.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bankdtl', 'APPPATH\\Views\\bankList.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bankList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('bankList', [], true)
+ 5 APPPATH\Controllers\User.php(188): view('bankList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updateBank()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 12:14:53 --> Invalid file: "editBank/6.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editBank/6.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('editBank/6', [], true)
+ 3 APPPATH\Controllers\User.php(190): view('editBank/6', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updateBank()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 12:14:58 --> Invalid file: "editBank/6.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editBank/6.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('editBank/6', [], true)
+ 3 APPPATH\Controllers\User.php(190): view('editBank/6', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updateBank()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 12:15:30 --> Invalid file: "editBank/6.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editBank/6.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('editBank/6', [], true)
+ 3 APPPATH\Controllers\User.php(190): view('editBank/6', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updateBank()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 12:16:00 --> Invalid file: "editBank/6.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editBank/6.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('editBank/6', [], true)
+ 3 APPPATH\Controllers\User.php(190): view('editBank/6', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updateBank()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 12:16:56 --> CodeIgniter\HTTP\Response::redirect(): Argument #2 ($method) must be of type string, array given, called in C:\xampp\htdocs\depositSlip\app\Controllers\User.php on line 190
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 506.
+ 1 APPPATH\Controllers\User.php(190): CodeIgniter\HTTP\Response->redirect('http://localhost/depositSlip/editBank/6', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updateBank()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 12:18:17 --> Invalid file: "editBank/6.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editBank/6.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('editBank/6', [], true)
+ 3 APPPATH\Controllers\User.php(192): view('editBank/6', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updateBank()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-13 12:18:31 --> Undefined variable $bank
+in APPPATH\Views\editBank.php on line 21.
+ 1 APPPATH\Views\editBank.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bank', 'APPPATH\\Views\\editBank.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\editBank.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('editBank', [], true)
+ 5 APPPATH\Controllers\User.php(192): view('editBank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updateBank()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-13 12:47:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'allianza_urjapatsanstha'@'103.74.196.175' (using password: YES) in C:\xampp\htdocs\depositSlip\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\depositSlip\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('allianza.in', 'allianza_urjapa...', Object(SensitiveParameterValue), 'allianza_urjapa...', 3306, '', 0)
+#1 C:\xampp\htdocs\depositSlip\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\depositSlip\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\depositSlip\system\Database\BaseBuilder.php(1601): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\depositSlip\app\Models\UserModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\depositSlip\app\Controllers\User.php(68): App\Models\UserModel->auth_check('siddhesh@mytt.i...')
+#6 C:\xampp\htdocs\depositSlip\system\CodeIgniter.php(934): App\Controllers\User->loginAuth()
+#7 C:\xampp\htdocs\depositSlip\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\depositSlip\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\depositSlip\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'103.74.196.175' (using password: YES) in C:\xampp\htdocs\depositSlip\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\depositSlip\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\depositSlip\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\depositSlip\system\Database\BaseBuilder.php(1601): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\depositSlip\app\Models\UserModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\depositSlip\app\Controllers\User.php(68): App\Models\UserModel->auth_check('siddhesh@mytt.i...')
+#5 C:\xampp\htdocs\depositSlip\system\CodeIgniter.php(934): App\Controllers\User->loginAuth()
+#6 C:\xampp\htdocs\depositSlip\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\depositSlip\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\depositSlip\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-13 12:47:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'103.74.196.175' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1601): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\UserModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\User.php(68): App\Models\UserModel->auth_check('siddhesh@mytt.in')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->loginAuth()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

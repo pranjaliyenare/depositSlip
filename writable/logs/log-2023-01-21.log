@@ -1,0 +1,145 @@
+CRITICAL - 2023-01-21 09:31:48 --> syntax error, unexpected token "echo", expecting ";"
+in APPPATH\Controllers\User.php on line 222.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 09:31:50 --> syntax error, unexpected token "echo", expecting ";"
+in APPPATH\Controllers\User.php on line 222.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 09:32:37 --> syntax error, unexpected token "echo", expecting ";"
+in APPPATH\Controllers\User.php on line 222.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 09:32:45 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 222.
+ 1 APPPATH\Controllers\User.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\User.php', 222)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->fileUpload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 09:37:03 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 222.
+ 1 APPPATH\Controllers\User.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\User.php', 222)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->fileUpload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 09:37:04 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 222.
+ 1 APPPATH\Controllers\User.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\User.php', 222)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->fileUpload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 09:39:37 --> syntax error, unexpected token "echo"
+in APPPATH\Views\generateDeptSlip.php on line 103.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('generateDeptSlip', [], true)
+ 3 APPPATH\Controllers\Home.php(39): view('generateDeptSlip', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->generateDeptSlip()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 09:42:49 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 222.
+ 1 APPPATH\Controllers\User.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\User.php', 222)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->fileUpload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 09:43:08 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 222.
+ 1 APPPATH\Controllers\User.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\User.php', 222)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->fileUpload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 09:44:27 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 222.
+ 1 APPPATH\Controllers\User.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\User.php', 222)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->fileUpload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 09:44:55 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 222.
+ 1 APPPATH\Controllers\User.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\User.php', 222)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->fileUpload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 09:45:25 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 222.
+ 1 APPPATH\Controllers\User.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\User.php', 222)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->fileUpload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 09:45:27 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 222.
+ 1 APPPATH\Controllers\User.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\User.php', 222)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->fileUpload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 09:48:44 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 224.
+ 1 APPPATH\Controllers\User.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\User.php', 224)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->fileUpload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 09:51:40 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 224.
+ 1 APPPATH\Controllers\User.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\User.php', 224)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->fileUpload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 09:58:28 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 224.
+ 1 APPPATH\Controllers\User.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\User.php', 224)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->fileUpload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 10:04:50 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 224.
+ 1 APPPATH\Controllers\User.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\User.php', 224)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->fileUpload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 10:05:50 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 223.
+ 1 APPPATH\Controllers\User.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\User.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->fileUpload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 13:00:28 --> Undefined variable $bank_name
+in APPPATH\Views\depositSlip.php on line 61.
+ 1 APPPATH\Views\depositSlip.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bank_name', 'APPPATH\\Views\\depositSlip.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\depositSlip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('depositSlip', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('depositSlip')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->depositSlip()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
